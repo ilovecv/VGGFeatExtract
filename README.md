@@ -13,7 +13,3 @@
 
 ## Quick Start
 - See `video_demo.py` as an example to sample video frames, extract fc6/7 embedding features, and store features to MATLAB format.
-- For USC HPCC users: Please `source /auto/iris-00/rn/chensun/iris_lib_setup.sh` to set up environment (anaconda, cv2, pycaffe, etc.)
-
-## Contact
-chensun@usc.edu
