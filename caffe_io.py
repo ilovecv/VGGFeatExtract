@@ -43,6 +43,7 @@ def transform_image(img, over_sample = False, mean_pix = [103.939, 116.779, 123.
   # resize image, the shorter side is set to image_dim
   if img.shape[0] < img.shape[1]:
     # Note: OpenCV uses width first...
+	#opencv的resize函数参数width在前。
     dsize = (int(np.floor(float(image_dim)*img.shape[1]/img.shape[0])), image_dim)
   else:
     dsize = (image_dim, int(np.floor(float(image_dim)*img.shape[0]/img.shape[1])))
